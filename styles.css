@@ -1,0 +1,271 @@
+*{
+    /* background-color: rgb(237, 237, 237); */
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+.bgcolor{
+    background-color:rgb(18, 163, 78);
+}
+
+
+/*----------------------------- ASIDE-------------------------------------------------- */
+
+aside{
+    float: left;
+    padding: 0 10px;
+    max-width: 20%;
+    max-height: 100vh;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+aside img{
+    max-width: 90%;
+    max-height: 100px;
+    margin-top: 10px;
+
+}
+.asidehead{
+    color: white;
+    background-color:rgb(18, 163, 78);
+    
+}
+.asidehead span{
+    font-size: 12px;
+    font-weight: 700;
+    background-color:rgb(18, 163, 78);
+
+}
+.asidehead ul{
+    text-align: center;
+    background-color:rgb(18, 163, 78);
+
+
+}
+.asidehead ul li{
+list-style-type: none;
+padding: 6px 0px 6px 0px;
+font-size: 14px;
+margin-left: -30px;
+border-radius: 4px;
+background-color:rgb(18, 163, 78);
+
+}
+.asidehead ul li:hover{
+    cursor: pointer;
+    background-color: rgb(161, 234, 161);
+
+}
+
+
+/* -----------------------------------NAV---------------------------------------------- */
+
+nav{
+    background-color: white;
+}
+.container-fluid{
+    background-color: white;
+}
+.container-fluid span{
+background-color: white;
+font-size: 12px;
+margin-left: 20px;
+}
+
+form input{
+    border: 1px solid #b2b1b1;
+    border-right:1px solid transparent;
+    margin-right: 0px;
+    padding: 5px 10px; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+   
+}
+.submit{
+    background-color: white;
+    border: 1px solid rgb(178, 177, 177);
+    border-left:1px solid transparent;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-right: 40px;
+}
+.bell img{
+    height: 16px;
+    width: 16px;
+}
+.bell {
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid grey;
+    margin-right: 40px;
+
+}
+.person{
+    height: 35px;
+    width: 30px;
+    border-radius: 50px;
+    margin-right: 50px;
+
+}
+
+
+/* -----------------------------------Content---------------------------------------------- */
+
+.content{
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 12px;
+
+}
+.enquiry{
+    border: 1px solid grey;
+    background-color: white;
+    width:calc(100% - 30%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin: 30px 0 30px 0;
+    
+}
+.enquiry input{
+    border: none;
+}
+.enquiry div{
+    padding: 5px 20px;
+}
+.enquiry div a{
+   color: rgb(41, 146, 41);
+}
+.firstSection{
+    border: 1px solid rgb(181, 181, 181);
+    width:calc(100% - 20%);
+    background-color: white;
+    width: 90%;
+    border-radius: 6px;
+    height: 145px;
+margin-bottom: 25px;
+
+}
+.left{
+    width: 48%;
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 6px;
+    margin: 15px;
+    float: left;
+}
+.floatright img{
+    border-radius: 70%;
+    height: 12px;
+    width: 12px;
+}
+.innerleft{
+    width:70%;
+    /* border: 1px solid grey; */
+    /* margin: 15px; */
+}
+.innerleft p {
+    display: flex;
+    justify-content: space-between;
+
+    }
+
+.innerleft p img{
+    height: 16px;
+    width: 16px;
+    margin: 0 8px 0 3px;
+
+}
+.firstvalue{
+    /* display: flex;
+    justify-content: space-between; */
+    margin-left: 20px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+.blue-text{
+    color: rgb(91, 83, 239);
+}
+.complete{
+    color: green;
+    background-color: #f0f0f0;
+    padding: 2px 10px;
+    font-size: 12px;
+    font-weight: 700;
+
+}
+.switchs{
+margin-bottom: 28px;
+}
+
+.switchs button{
+margin: 0 -3px;
+border: 1px solid grey;
+padding: 5px 10px;
+border-right:1px solid transparent;
+
+}
+.switch-on{
+background-color: white;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+.switch-complete{
+background-color: rgb(41, 146, 41) ;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+color: white;
+}
+
+.right-float-right{
+    float: right;
+    padding-right: 30px;
+    padding: 10px 30px 0 0;
+}
+
+.right img{
+    height: 15px;
+    width: 15px;
+    margin-right: 8px;
+}
+
+.green{
+    background-color:rgb(41, 146, 41) ;
+    color: white;
+    border: 1px solid rgb(52, 148, 52);
+    padding: 5px 35px;
+    border-radius: 7px;
+    margin-right: 30px;
+}
+.green-outline{
+    color: rgb(41, 146, 41);
+    background-color: white;
+    padding: 5px 25px;
+    border: 1px solid rgb(52, 148, 52);
+    border-radius: 7px;
+    margin-left: 30px;
+
+}
+.options-2{
+    max-width:35%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.options-2 button{
+}
+.em{
+    margin-left: 28px;
+}
+.eem{
+    margin-left: 5px;
+}
+/* -----------------------------------NAV---------------------------------------------- */
+/* -----------------------------------NAV---------------------------------------------- */
+/* -----------------------------------NAV---------------------------------------------- */
